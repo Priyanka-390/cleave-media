@@ -229,7 +229,7 @@
     border-radius: 5px;
     border: 1px solid var(--BLACK, #3C3C3C);
     background: #FFF9E4;
-   
+
     padding: 16px 30px;
     transition: all 300ms linear;
 }
@@ -265,11 +265,6 @@
 .contact-btn:hover {
     background: var(--bs-offwhite);
     color: var(--bs-black);
-}
-
-.book-btn:hover {
-    background: yellow;
-    color: white
 }
 
 .multiply {
@@ -322,7 +317,8 @@
     border-radius: 5px;
     padding: 16px 0;
 }
-.started-btn:hover{
+
+.started-btn:hover {
     background-color: var(--bs-lightbrown);
     color: var(--bs-offwhite);
 }
@@ -964,5 +960,12 @@ p {
         left: -387%;
         right: -387%;
         opacity: 0.2;
+    }
+
+    .circle {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: var(--bs-15offwhite);
     }
 }

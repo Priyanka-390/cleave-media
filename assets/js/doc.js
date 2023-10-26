@@ -19,4 +19,4 @@ setTimeout(() => {
     document.getElementById("preloder").classList.add("opacity-0");
     document.getElementById("preloder").classList.add("pointer_event_none");
     document.body.classList.remove("overflow-hidden")
-}, 3000);
+}, 2000);
