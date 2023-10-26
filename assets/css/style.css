@@ -722,6 +722,7 @@ p {
     border-top: 1px solid #FAFAFA;
 }
 
+
 .radius-15 {
     border-radius: 15px;
 }
@@ -732,6 +733,15 @@ p {
 
 .text-align-start {
     text-align: start;
+}
+
+.circle-menu {
+    width: 46px;
+    height: 46px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    padding-bottom: 17px;
+    padding-left: 8px;
 }
 
 /* media-queary */
