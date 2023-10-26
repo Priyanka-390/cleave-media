@@ -1,0 +1,158 @@
+  <section class="bg-brown position-relative py-100 z-1">
+        <div class="ellipse2 z-n1">
+            <img src="./assets/images/Ellipse2.png" alt="ellipse2">
+        </div>
+        <div class="ellipse3 z-n1">
+            <img src="./assets/images/Ellipse3.png" alt="ellipse3">
+        </div>
+        <div class="shape1 z-n1">
+            <img src="./assets/images/shape1.png" alt="shape1">
+        </div>
+        <div class="curve4">
+            <img src="./assets/images/curve4.png" alt="curve4">
+        </div>
+        <div class="shape2">
+            <img src="./assets/images/dna.png" alt="dna">
+        </div>
+        <div class="dots">
+            <img src="./assets/images/dots.png" alt="dots">
+        </div>
+        <div class="my-container">
+            <h2 class="bs-offwhite ff-ma fs-42 text-center">Services</h2>
+            <p class="bs-offwhite ff-ma fs-16 text-center max-w612 mx-auto">Exceptional services that redefine
+                excellence, exceeding expectations
+                every time.</p>
+            <div class="row flex-wrap ">
+                <div class="col-12 col-md-6 col-lg-4  d-flex justify-content-center flex-column">
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box1 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-center text-lg-start">Trade show banners</p>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box1 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-center text-lg-start">Logos & branding</p>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box1 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-center text-lg-start">Email graphics</p>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box1 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-center text-lg-start">Packaging</p>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box1 mb-27  d-flex justify-content-center flex-column">
+                            <p class="ff-ma fs-24 bs-offwhite text-nowrap text-center text-lg-start">Social media
+                                graphics</p>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box1 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-center text-lg-start ">Pitch decks</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3  d-flex justify-content-center flex-column">
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box2 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-center text-lg-start">Website</p>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box2 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-center text-lg-start">Infographics</p>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box2 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-center text-lg-start">Direct mail</p>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box2 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-center text-lg-start">Wireframes</p>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box2 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-nowrap  text-center text-lg-start">Blog graphics</p>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box2 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-center text-lg-start">Digital ads</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2  d-flex justify-content-center flex-column">
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box3 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-nowrap text-center text-lg-start">Slide decks</p>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box3 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-center text-lg-start text-center text-lg-start">
+                                Resumes</p>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box3 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-center text-lg-start">Brochures</p>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box3 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-center text-lg-start">Signage</p>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box3 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-center text-lg-start">Stationery</p>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box3 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-center text-lg-start">Billboards</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center flex-column">
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box4 mb-27 ">
+                            <p class="ff-ma fs-24 bs-offwhite text-center text-lg-start">Mobile apps</p>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box4 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-nowrap text-center text-lg-start">Design systems</p>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box4 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-nowrap text-center text-lg-start">Business cards</p>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box4 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-center text-lg-start">SAAS</p>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box4 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-center text-lg-start">Brand guides</p>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex justify-content-center">
+                        <div class="box4 mb-27">
+                            <p class="ff-ma fs-24 bs-offwhite text-center text-lg-start">Icons</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
