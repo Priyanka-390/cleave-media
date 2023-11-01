@@ -15,7 +15,7 @@
     --fs-md: 20px;
     --fs-xl: 32px;
     --fs-2xl: 39px;
-    --fs-3xl: 32px;
+    --fs-3xl: 29px;
 
     /* font-family */
     --ff-montserrat: 'Montserrat Alternates', sans-serif;
@@ -35,6 +35,9 @@
     --bs-lightbrown: #988353;
     --bs-10white: #FFFFFF1A;
     --black: #000;
+    --bs-navbrown: #86765d;
+    --bs-grey: #D9D9D9;
+    --bs-basicblack: #000;
 }
 
 /* font-size */
@@ -62,7 +65,7 @@
     font-size: var(--fs-3xl);
 }
 
-/* font-family */
+/*================ font-family ==============*/
 .ff-montserrat {
     font-family: var(--ff-montserrat);
 }
@@ -71,7 +74,7 @@
     font-family: var(--ff-railway);
 }
 
-/* line-height */
+/*================ line-height ==============*/
 .lh-nor {
     line-height: normal;
 }
@@ -229,7 +232,7 @@
     border-radius: 5px;
     border: 1px solid var(--BLACK, #3C3C3C);
     background: #FFF9E4;
-
+    box-shadow: 5px 5px 0px 0px #3C3C3C;
     padding: 16px 30px;
     transition: all 300ms linear;
 }
@@ -248,8 +251,12 @@
     transition: all 300ms linear;
 }
 
-.backbtn:hover {
+.book-btn:hover {
     box-shadow: 5px 5px 0px 0px #3C3C3C;
+}
+
+.backbtn:hover {
+    box-shadow: none;
 }
 
 .addbtn:hover {
@@ -258,8 +265,8 @@
 }
 
 .log-btn:hover {
-    background-color: var(--bs-offwhite);
-    color: var(--bs-black);
+    background-color: var(--bs-navbrown);
+    border: 1px solid transparent;
 }
 
 .contact-btn:hover {
@@ -278,6 +285,7 @@
     padding: 0 32px 32px 32px;
     box-shadow: 10px 10px 0px 0px transparent;
     transition: all 500ms linear;
+    width: 100%;
 }
 
 .card1:hover {
@@ -340,8 +348,8 @@
 
 .sec6-blue-ellipse {
     position: absolute;
-    bottom: -20%;
-    right: -15%;
+    bottom: -10%;
+    right: 0;
 }
 
 .sec6-ellipse {
@@ -352,8 +360,8 @@
 
 .sec6-triangle-ellipse {
     position: absolute;
-    top: -10%;
-    left: -10%;
+    top: 0;
+    left: 0;
 }
 
 .sec6-yellow-ellipse {
@@ -364,17 +372,14 @@
 
 .blue-ellipse {
     position: absolute;
-    left: -5%;
+    left: 0%;
     top: 5%;
-    width: 85px
 }
 
 .brown-ellipse {
     position: absolute;
-    left: -10%;
+    left: 0%;
     top: 63%;
-    width: 96px;
-    height: 95.383px;
 }
 
 .small-ellipse-1 {
@@ -434,12 +439,12 @@
 .blue-ellipse-2 {
     position: absolute;
     top: 0%;
-    left: -10%;
+    left: 0%;
 }
 
 .slider-ellipse-1 {
     position: absolute;
-    top: 8%;
+    top: 2%;
     right: 10%;
 }
 
@@ -461,6 +466,12 @@
     left: 10%;
 }
 
+.sec6-yel0 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 .ellipse2-4th-sec {
     position: absolute;
     top: 0%;
@@ -479,6 +490,18 @@
     right: 5%;
 }
 
+.triangle-sec {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.sec-ellipse5 {
+    position: absolute;
+    top: 3%;
+    right: 16%;
+}
+
 .z-index1 {
     z-index: -1;
 }
@@ -487,13 +510,15 @@
     position: absolute;
     right: 0;
     top: 63%;
+    max-width: 199.68px;
+    max-height: 169.739px;
 }
 
 /* cards */
 .card-1 {
     border-radius: 15px;
     border: 1px solid var(--bs-black);
-    padding: 30px;
+    padding: 20px;
     max-width: 891px;
 }
 
@@ -531,6 +556,39 @@
     list-style: none;
     text-align: center;
 }
+.slider1 .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 31px;
+    height: 11px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    background: var(--bs-grey);
+    border-radius: 18px;
+}
+
+
+.slick-dots li {
+    margin-right: 0px;
+}
+
+.slider1 .slick-dots {
+    position: absolute;
+    bottom: -52px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slider1 .slick-dots li.slick-active {
+    opacity: .75;
+    background: var(--bs-basicblack);
+    width: 40px !important;
+}
 
 .slider2 .slick-current,
 .slider2 .slick-center {
@@ -565,22 +623,33 @@
 }
 
 .slider3 .slick-dots li button:before {
-    font-family: slick;
-    font-size: 16px;
-    line-height: 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 31px;
-    height: 11px;
-    content: '';
-    text-align: center;
-    background-color: #000;
-    border-radius: 34px;
+    content: unset;
 }
 
 .slider3 .slick-dots li {
     margin-right: 30px;
+}
+
+.slider3 .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 31px;
+    height: 11px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    background: var(--bs-grey);
+    border-radius: 18px;
+}
+
+.slider3 .slick-dots li {
+    margin-right: 9px;
+}
+
+.slider3 .slick-dots li.slick-active {
+    opacity: .75;
+    background: var(--bs-basicblack);
+    width: 57px !important;
 }
 
 /* ======accordian===== */
@@ -741,16 +810,157 @@ p {
     text-align: start;
 }
 
-.circle-menu {
-    width: 46px;
-    height: 46px;
-    background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 50%;
-    padding-bottom: 17px;
-    padding-left: 8px;
-}
 
 /* media-queary */
+
+@media (max-width:520px) {
+    .mw-sm-346 {
+        max-width: 346px;
+    }
+
+    .mw-sm-307 {
+        max-width: 307px;
+    }
+
+    .side-ellipse {
+        position: absolute;
+        right: 0;
+        top: 5%;
+        max-width: 94px;
+        max-height: 94px;
+    }
+
+    .triangle-ellipse {
+        position: absolute;
+        right: 0;
+        top: 73%;
+        max-width: 106.928px;
+        max-height: 90.627px;
+    }
+
+    .brown-ellipse {
+        position: absolute;
+        left: 0%;
+        top: 77%;
+        width: 85px;
+        height: 95.383px;
+    }
+
+    .sec-ellipse5 {
+        position: absolute;
+        top: 1%;
+        right: 16%;
+        max-width: 52px;
+    }
+
+    .blue-ellipse {
+        position: absolute;
+        left: 0%;
+        top: 5%;
+        max-width: 75px;
+    }
+
+    .small-ellipse-1 {
+        position: absolute;
+        top: 13%;
+        left: 31%;
+        max-width: 47px;
+        max-height: 28px;
+    }
+
+    .small-ellipse-2 {
+        position: absolute;
+        top: 1%;
+        left: 64%;
+        max-width: 33.804px;
+        max-height: 36.843px;
+    }
+
+    .small-ellipse-3 {
+        position: absolute;
+        bottom: 25%;
+        left: 5%;
+        max-width: 31.582px;
+        max-height: 33.034px;
+    }
+
+    .sec6-blue-ellipse {
+        position: absolute;
+        bottom: -3%;
+        right: 0;
+        max-width: 103px;
+    }
+
+    .sec6-triangle-ellipse {
+        position: absolute;
+        top: 0%;
+        left: 0;
+        max-width: 74.99px;
+    }
+
+    .small-ellipse-4 {
+        position: absolute;
+        bottom: 17%;
+        left: 67%;
+        max-width: 33px;
+        max-height: 32px;
+    }
+
+    .yellow-ellipse {
+        position: absolute;
+        max-width: 518px;
+        max-height: 59px;
+        border-radius: 518px;
+        background: var(--Linear, linear-gradient(125deg, #FFCF23 0%, #FFA723 100%));
+        filter: blur(239px);
+    }
+
+    .blue-ellipse-2 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        max-width: 90px;
+        max-height: 89.328px;
+    }
+
+    .slider-ellipse-1 {
+        position: absolute;
+        top: 2%;
+        right: 10%;
+    }
+
+    .slider-ellipse-2 {
+        position: absolute;
+        bottom: 5%;
+        left: 10%;
+        max-width: 43px;
+    }
+
+    .triangle-sec {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        max-width: 82.265px;
+    }
+
+    .ellipse-4th-sec {
+        position: absolute;
+        top: 2%;
+        left: 4%;
+        max-width: 16px;
+    }
+
+    .ellipse2-4th-sec {
+        position: absolute;
+        top: 1%;
+        right: 9%;
+        max-width: 32.888px;
+    }
+
+}
+
+
+
 @media (min-width:576px) {
     :root {
         --fs-2xl: 40px;
@@ -773,34 +983,18 @@ p {
         --fs-3xl: 50px;
     }
 
-    .blue-ellipse {
-        width: 170px;
-    }
-
     .accordian-triangle {
         position: absolute;
         bottom: 0;
         right: -10%;
     }
 
-    .sec6-blue-ellipse {
-        position: absolute;
-        bottom: 5%;
-        right: 10%;
-    }
-
     .brown-ellipse {
         position: absolute;
         left: 0;
         top: 63%;
-        max-width: 200px;
-        max-height: 195px;
-    }
-
-    .sec6-triangle-ellipse {
-        position: absolute;
-        top: 5%;
-        left: 10%;
+        max-width: 265.077px;
+        max-height: 212.469px;
     }
 
     .ellipse3-4th-sec {
@@ -855,6 +1049,7 @@ p {
         border-right: 2px solid #0000001A;
     }
 }
+
 
 
 /* -------====navbar====-----*/
@@ -967,5 +1162,14 @@ p {
         height: 32px;
         border-radius: 50%;
         background-color: var(--bs-15offwhite);
+    }
+
+    .circle-menu {
+        width: 46px;
+        height: 46px;
+        background-color: rgba(255, 255, 255, 0.05);
+        border-radius: 50%;
+        padding-bottom: 17px;
+        padding-left: 8px;
     }
 }
